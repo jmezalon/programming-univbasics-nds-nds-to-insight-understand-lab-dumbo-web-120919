@@ -18,8 +18,8 @@ def print_first_directors_movie_titles
     directors << directors_database[count][:movies]
     count+= 1
   end
-  increment = 5
-  while increment < directors.count do
+  increment = 0
+  while increment < 5 do
     movie_title = directors[increment].each {| i | p i[:title]}
     increment+= 1
   end
