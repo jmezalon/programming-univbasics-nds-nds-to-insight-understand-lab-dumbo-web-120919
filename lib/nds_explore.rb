@@ -16,19 +16,10 @@ def print_first_directors_movie_titles
   count = 0
   while count < directors_database.length do
     directors << directors_database[count][:movies]
-    increase = 0
-    while increase < directors.length do
-      movie_title << directors[count][increase]
-      inner_increase = 0
-      while inner_increase < movie_title.length do
-        pp movie_title
-      inner_increase += 1  
-      end
-    increase+= 1  
     end
     count+= 1
   end
-  # p movie_title
+  pp directors
 end
 
 
