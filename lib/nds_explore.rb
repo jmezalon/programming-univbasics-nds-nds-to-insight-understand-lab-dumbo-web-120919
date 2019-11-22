@@ -16,7 +16,7 @@ def print_first_directors_movie_titles
   count = 0
   while count < directors_database.length do
     directors << directors_database[count][:movies]
-    end
+    
     count+= 1
   end
   pp directors
