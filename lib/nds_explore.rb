@@ -20,7 +20,7 @@ def print_first_directors_movie_titles
   end
   increment = 0
   while increment < directors.count do
-    return movie_title = directors[increment]
+    movie_title = directors[0]
     increment+= 1
   end
   p movie_title
