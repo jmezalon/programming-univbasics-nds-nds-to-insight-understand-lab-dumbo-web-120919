@@ -23,7 +23,7 @@ def print_first_directors_movie_titles
     movie_title = directors[0].each {| i | "#{i[:title]}  \n"}
     # increment+= 1
   # end
-  puts movie_title.[:title]
+  puts movie_title[:title]
 end
 
 
