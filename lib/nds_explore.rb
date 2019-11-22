@@ -18,7 +18,7 @@ def print_first_directors_movie_titles
     directors << directors_database[count][:movies]
     count+= 1
   end
-  pp directors.each { | title | title.each{ | i | i} }
+  directors.each { | title | print title }
 end
 
 
