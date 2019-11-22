@@ -20,9 +20,10 @@ def print_first_directors_movie_titles
   end
   increment = 0
   while increment < directors.count do
-    p directors[increment][1][:title]
+    movie_title = directors[increment]
     increment+= 1
   end
+  p movie_title
 end
 
 
