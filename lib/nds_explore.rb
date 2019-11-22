@@ -10,8 +10,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors = {}
-  movie_title = []
+  directors = 
+  movie_title = {}
   
   count = 0
   while count < directors_database.length do
