@@ -20,7 +20,7 @@ def print_first_directors_movie_titles
   end
   increment = 5
   while increment < directors.count do
-    movie_title = directors[increment].each {| i | p i.director == "Spielber" i[:title]}
+    movie_title = directors[increment].each {| i | p i[:title]}
     increment+= 1
   end
   # p movie_title
