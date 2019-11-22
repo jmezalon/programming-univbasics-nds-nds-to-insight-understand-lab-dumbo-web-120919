@@ -10,7 +10,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors = []
+  directors = {}
   movie_title = []
   
   count = 0
@@ -20,7 +20,7 @@ def print_first_directors_movie_titles
   end
   increment = 0
   while increment < directors.count do
-    movie_title = directors[0]
+    movie_title[increment] = directors[increment]
     increment+= 1
   end
   p movie_title
